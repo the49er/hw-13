@@ -10,7 +10,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -78,7 +77,7 @@ public class CommentsReader {
         List<String> postIds = getAllPostIds(allPosts);
         int lastPost = getLastPostId(postIds);
         String allComments = getCommentsByPostId(lastPost);
-        String jsonFilePath = "src/main/resources/output/user-" + userId + "-post-" + lastPost + "-comments.json";
+        String jsonFilePath = "src/main/resources/output/task2_data_out/user-" + userId + "-post-" + lastPost + "-comments.json";
         String outputData = GSON.toJson(createAllCommentsFromString(allComments));
         try (FileWriter fileWriter = new FileWriter(jsonFilePath)) {
             fileWriter.write(outputData);

@@ -7,11 +7,11 @@ public class HttpTest {
     public static void main(String[] args) throws IOException, InterruptedException {
 
 
-        String newUserDataFile = "src/main/resources/input/new_user.txt"; //new user information
-        String newUserCreatedFile = "src/main/resources/output/new_user_created.json"; //new user has been added, writes JSON file
-        String userDataToUpdateFile = "src/main/resources/input/new_data_to_update.txt"; // information which has to be updated
-        String userDataUpdatedFile = "src/main/resources/output/new_data_updated.json"; // updated information, writes JSON file
-        String allUsersDataFile = "src/main/resources/output/all_users_data.json"; //writes JSON file with all Users
+        String newUserDataFile = "src/main/resources/input/task1_data/new_user.txt"; //new user information
+        String newUserCreatedFile = "src/main/resources/output/task1_data_out/new_user_created.json"; //new user has been added, writes JSON file
+        String userDataToUpdateFile = "src/main/resources/input/task1_data/new_data_to_update.txt"; // information which has to be updated
+        String userDataUpdatedFile = "src/main/resources/output/task1_data_out/new_data_updated.json"; // updated information, writes JSON file
+        String allUsersDataFile = "src/main/resources/output/task1_data_out/all_users_data.json"; //writes JSON file with all Users
 
         Scanner scanner = new Scanner(System.in);
         HttpUtils httpUtils = new HttpUtils();

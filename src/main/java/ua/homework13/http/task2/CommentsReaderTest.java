@@ -6,17 +6,15 @@ import java.util.Scanner;
 public class CommentsReaderTest {
     public static void main(String[] args) {
 
-        String allPostsByUserId = "src/main/resources/output/all_posts_by_userId.json"; //writes JSON file with all User's posts
+        String allPostsByUserId = "src/main/resources/output/task2_data_out/all_posts_by_userId.json"; //writes JSON file with all User's posts
 
         CommentsReader commentsReader = new CommentsReader();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input user's ID: ");
 
-
         int userId = scanner.nextInt();
         String posts = commentsReader.getPostsByUserId(userId);
         commentsReader.createPostJsonFile(posts, allPostsByUserId);
         commentsReader.createCommentsJsonFile(userId);
-
     }
 }

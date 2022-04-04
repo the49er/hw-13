@@ -1,0 +1,23 @@
+{
+  "id": 11,
+  "name": "Vladyslav Radchenko",
+  "username": "vlad_goIt",
+  "email": "vlad.radchenko@goit.com",
+  "address": {
+    "street": "Hryshatyk, 22",
+    "suite": "Apt. 17",
+    "city": "Kyiv",
+    "zipcode": "01054",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "goit.com",
+  "company": {
+    "name": "GoIt",
+    "catchPhrase": "theBestItCourses",
+    "bs": "goFurther"
+  }
+}

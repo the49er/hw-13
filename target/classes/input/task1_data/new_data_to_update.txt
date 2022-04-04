@@ -1,0 +1,23 @@
+{
+    "id": 2,
+    "name": "Vitaly Kardash",
+    "username": "dude",
+    "email": "dudehood@dude.com",
+    "address": {
+      "street": "Sadova, 12",
+      "suite": "Apt. 10",
+      "city": "Fastiv",
+      "zipcode": "31255",
+      "geo": {
+        "lat": "-19.3259",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "fastnet.com",
+    "company": {
+      "name": "dude and Co",
+      "catchPhrase": "theBestDudesInTheWorld",
+      "bs": "beDudeButNotRude"
+    }
+}

@@ -1,7 +1,5 @@
 package ua.homework13.http.task3;
 
-import ua.homework13.http.task2.CommentsReader;
-
 import java.util.Scanner;
 
 public class ToDoCheckerTest {
